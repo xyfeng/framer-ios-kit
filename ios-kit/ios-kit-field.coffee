@@ -45,7 +45,7 @@ exports.create = (array) ->
 		superLayer:field
 		name:".text"
 		constraints:setup.textConstraints
-		text:''
+		text: if setup.text then setup.text else ""
 		fontSize:17
 		color:setup.color
 
@@ -53,7 +53,7 @@ exports.create = (array) ->
 		superLayer:field
 		name:".placeholder"
 		constraints:setup.textConstraints
-		text:setup.placeholder
+		text: if setup.text then "" else setup.placeholder
 		fontSize:17
 		color:setup.placeholderColor
 

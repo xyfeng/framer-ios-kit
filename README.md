@@ -453,7 +453,7 @@ The field is a versatile input for the keyboard. Please note, this is not a HTML
 
 ####Properties
 - **text** *String* <br> Adds text by default to the field.
-- **placeholderText** *String* <br> Sets the placeholder text.
+- **placeholder** *String* <br> Sets the placeholder text.
 - **placeholderColor** *Color String* <br> Sets the placeholder text color.
 - **borderRadius** *Integer* <br>Sets border radius of field.
 - **borderWidth** *Integer* <br> Sets border width.
