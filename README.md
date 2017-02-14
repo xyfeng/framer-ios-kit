@@ -553,8 +553,8 @@ The sheet is quick action list. The sheet component is super simple to create.
 
 #### Example
 <pre>
-sheet = new ios.sheet 
-	actions:[“-r Delete, Edit, Share”]
+sheet = new ios.Sheet 
+	actions:["-r Delete", "Edit", "Share"]
 	animated:true
 	description:"Do something"
 </pre>
